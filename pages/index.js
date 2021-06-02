@@ -5,7 +5,7 @@ import HelloAPI from './api/hello.js'
 export default function Home() {
   return (
     <div classname="tittle">
-        <h1>Hello, {res.name}</h1>
+        <h1>Hello, {slug}</h1>
     </div>
   )
 }
